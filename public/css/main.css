@@ -1,0 +1,76 @@
+body {
+
+	 background-image : url(http://www.designbolts.com/wp-content/uploads/2013/02/Pineapple-cut-Grey-Seamless-Pattern-For-Website-Background.jpg) ;
+
+}
+
+.menu {
+
+  position: relative;
+  width: 100%;
+  background: #ff8c80;
+  margin: 0 auto;
+  padding : 0 25% 0 28%;
+
+}
+
+.flexinav {
+
+  position: relative;
+  padding: 0;
+  width: 100%;  
+  z-index: 500;
+  font-family: monospace;
+  margin: 0 auto;
+}
+.flexiul {
+
+ padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  float: left;
+}
+.flexiul > li {
+
+float: left;
+ padding:0;
+margin: 0;
+position: relative;
+
+}
+
+.flexiul > li:hover, 
+.flexiul > li.active {
+    background: #ef666e;
+ }
+.flexiul > li  > a,
+.flexiul > li:hover > a, 
+.flexiul >li:active >a  {
+
+	color:#FFF;
+}
+
+.flexiul > li.noactive {
+     background:#ff8c80;
+
+ }
+.flexinav .flexiul> li > a {
+  display: block;
+  line-height: 40px;
+  padding: 0 15px;
+  color : #FFF;
+
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.flexinav .flexiul > li > a:hover {
+
+	-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+}
+
+
+
+
